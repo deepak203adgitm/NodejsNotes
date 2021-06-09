@@ -59,6 +59,8 @@ function checkExtensionFolder(extension){
 }
 
 
+
+
 function moveFile(file , extensionFolderName){
     let sourceFile = testFolderPath+"/"+file;
     let destinationFile = extensionFolderName+"/"+file;
